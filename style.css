@@ -1,30 +1,65 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
 .info{
-    display:inline-block;
-}
-
-.photo{
-    border:2px;
-    width:100%;
-    max-width: 500px;
-    min-width: 100px;
+    background-image: url(Emma.jpeg);
+    width:900px;
+    position: relative;
 
 }
 
-.p{
-  color:blue;
+.box{
+flex: 1;
+padding: 20px;
+border: 1px solid black;
+margin: 10px;
+}
+
+.box1{
+  color:black;
   font-style: italic;
-  font-family:Arial, Helvetica, sans-serif;
   font-weight:bold;
-  border-style:solid;
-  background-color:lightgrey;
+  margin:30px;
+  
 
 }
 
-.p2{
-    color:lightgreen;
+.box2{
+    color:black;
     font-weight:bold;
-    font-family:sans-serif;
     font-style:italic;
-    border-style:dashed;
+    font-size:25px;
+    background-color:lightgrey;
+    padding:30px;
+    margin-top:30px;
 
 }
+body{
+    font-family: 'Cherry Bomb One', cursive;
+    
+}
+.container{
+    display: flex;
+}
+
+.hill{
+    position:right;
+    right:-10;
+}
+
+
+.decorated-button{
+   position:absolute;
+   right:0;
+   background-color:rgb(213, 137, 83);
+   padding:10px 20px;
+   border:none;
+   font-size:16px;
+}
+.decorated-button:hover{
+    background-color:rgb(244, 6, 184);
+}
+
+
